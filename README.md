@@ -30,21 +30,21 @@ Instala a skill para o seu usuário (vale em todos os projetos) ou só para um p
 No Claude Code:
 
 ```text
-/plugin marketplace add GabrielAraujo-21/coordenacao-agentes-mf
-/plugin install coordenacao-agentes@coordenacao-agentes-mf
+/plugin marketplace add GabrielAraujo-21/skill-coordenacao-agentes-mf
+/plugin install coordenacao-agentes@skill-coordenacao-agentes-mf
 ```
 
 Ou pelo terminal:
 
 ```bash
-claude plugin marketplace add GabrielAraujo-21/coordenacao-agentes-mf
+claude plugin marketplace add GabrielAraujo-21/skill-coordenacao-agentes-mf
 ```
 
 ```bash
-claude plugin install coordenacao-agentes@coordenacao-agentes-mf
+claude plugin install coordenacao-agentes@skill-coordenacao-agentes-mf
 ```
 
-Para instalar só num projeto (fica registrado no `.claude/settings.json` dele), acrescente `--scope project` ao `install`. Para atualizar depois: `claude plugin marketplace update coordenacao-agentes-mf`.
+Para instalar só num projeto (fica registrado no `.claude/settings.json` dele), acrescente `--scope project` ao `install`. Para atualizar depois: `claude plugin marketplace update skill-coordenacao-agentes-mf`.
 
 Com o plugin, a skill aparece como `coordenacao-agentes:coordenacao-agentes`.
 
@@ -55,23 +55,23 @@ A skill passa a fazer parte do projeto (pode ser versionada com ele) e qualquer 
 Linux, macOS ou Git Bash, a partir de um clone:
 
 ```bash
-git clone https://github.com/GabrielAraujo-21/coordenacao-agentes-mf.git
+git clone https://github.com/GabrielAraujo-21/skill-coordenacao-agentes-mf.git
 ```
 
 ```bash
-./coordenacao-agentes-mf/install.sh /caminho/do/projeto --com-documentos
+./skill-coordenacao-agentes-mf/install.sh /caminho/do/projeto --com-documentos
 ```
 
 Sem clonar:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/GabrielAraujo-21/coordenacao-agentes-mf/main/install.sh | bash -s -- /caminho/do/projeto --com-documentos
+curl -fsSL https://raw.githubusercontent.com/GabrielAraujo-21/skill-coordenacao-agentes-mf/main/install.sh | bash -s -- /caminho/do/projeto --com-documentos
 ```
 
 Windows (PowerShell), a partir de um clone:
 
 ```powershell
-.\coordenacao-agentes-mf\install.ps1 -Projeto C:\caminho\do\projeto -ComDocumentos
+.\skill-coordenacao-agentes-mf\install.ps1 -Projeto C:\caminho\do\projeto -ComDocumentos
 ```
 
 Opções do instalador:

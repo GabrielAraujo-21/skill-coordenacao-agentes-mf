@@ -11,10 +11,10 @@
 #   --forcar          substitui uma instalação anterior da skill
 #
 # Sem clonar o repositório:
-#   curl -fsSL https://raw.githubusercontent.com/GabrielAraujo-21/coordenacao-agentes-mf/main/install.sh | bash -s -- /caminho/do/projeto --com-documentos
+#   curl -fsSL https://raw.githubusercontent.com/GabrielAraujo-21/skill-coordenacao-agentes-mf/main/install.sh | bash -s -- /caminho/do/projeto --com-documentos
 set -euo pipefail
 
-REPO_URL="https://github.com/GabrielAraujo-21/coordenacao-agentes-mf.git"
+REPO_URL="https://github.com/GabrielAraujo-21/skill-coordenacao-agentes-mf.git"
 NOME="coordenacao-agentes"
 
 projeto="."

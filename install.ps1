@@ -23,7 +23,7 @@ param(
 )
 $ErrorActionPreference = "Stop"
 
-$RepoUrl = "https://github.com/GabrielAraujo-21/coordenacao-agentes-mf.git"
+$RepoUrl = "https://github.com/GabrielAraujo-21/skill-coordenacao-agentes-mf.git"
 $Nome = "coordenacao-agentes"
 $Utf8 = New-Object System.Text.UTF8Encoding($false)
 
