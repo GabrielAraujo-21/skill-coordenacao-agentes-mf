@@ -1,0 +1,19 @@
+{
+  "name": "coordenacao-agentes-mf",
+  "owner": {
+    "name": "Gabriel Araujo",
+    "url": "https://github.com/GabrielAraujo-21"
+  },
+  "metadata": {
+    "description": "Skills para coordenar vários agentes (LLMs) no mesmo projeto."
+  },
+  "plugins": [
+    {
+      "name": "coordenacao-agentes",
+      "source": "./plugins/coordenacao-agentes",
+      "description": "Quadro de atuação, pendências canônicas com IDs e decisões do usuário uma por vez.",
+      "version": "1.0.0",
+      "category": "productivity"
+    }
+  ]
+}

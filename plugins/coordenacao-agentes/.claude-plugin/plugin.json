@@ -1,0 +1,12 @@
+{
+  "name": "coordenacao-agentes",
+  "version": "1.0.0",
+  "description": "Coordenação de vários agentes (LLMs) no mesmo projeto: quadro de atuação, pendências canônicas com IDs e decisões do usuário uma por vez, explicadas de forma simples.",
+  "author": {
+    "name": "Gabriel Araujo",
+    "url": "https://github.com/GabrielAraujo-21"
+  },
+  "homepage": "https://github.com/GabrielAraujo-21/coordenacao-agentes-mf",
+  "repository": "https://github.com/GabrielAraujo-21/coordenacao-agentes-mf",
+  "keywords": ["coordenacao", "agentes", "pendencias", "multi-agente", "pt-BR"]
+}
