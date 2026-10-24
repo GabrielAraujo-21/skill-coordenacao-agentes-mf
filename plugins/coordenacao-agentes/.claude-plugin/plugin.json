@@ -1,6 +1,6 @@
 {
   "name": "coordenacao-agentes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Coordenação de vários agentes (LLMs) no mesmo projeto: quadro de atuação, pendências canônicas com IDs e decisões do usuário uma por vez, explicadas de forma simples.",
   "author": {
     "name": "Gabriel Araujo",
